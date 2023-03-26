@@ -1,0 +1,10 @@
+{
+    "type": "floor",
+    "entries": [
+        { 
+            "idn": "industrial_panel", 
+            "res": "Industrial-Panel",
+            "connections": "Industrial-Panel-Connections"
+        }
+    ]
+}

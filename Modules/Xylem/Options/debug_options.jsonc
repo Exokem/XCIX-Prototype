@@ -1,0 +1,7 @@
+{
+    "type": "options_package",
+    "idn": "xylem_debug_options",
+    "entries": {
+        "default_typeface": "rowui"
+    }
+}

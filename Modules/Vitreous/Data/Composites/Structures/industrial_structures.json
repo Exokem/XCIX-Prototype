@@ -1,0 +1,44 @@
+{
+    "type": "structure",
+    "entries": [
+        { 
+            "idn": "industrial_wall", 
+            "res": "wall",
+            "connections": "wall_connections",
+            "element": "human",
+            "extra_connections": [
+                {
+                    "ref": "industrial_door",
+                    "overlay": "Wall-Industrial-Door-Overlays",
+                    "resource_determinant": "Vitreous.Procedural.DoorResourceDeterminant",
+                    "patchwork_connector": "Xylem.Graphics.Patchwork.AxisOverheadPatchworkConnector"
+                }
+            ],
+            "attributes": [
+                {
+                    "ref": "integrity",
+                    "min": 0,
+                    "max": 100
+                }
+            ]
+        },
+        {
+            "idn": "industrial_door",
+            "res": "Industrial-Door",
+            "resource_determinant": "Vitreous.Procedural.DoorResourceDeterminant",
+            "partitions": "Industrial-Door-Partitions",
+            "states": [
+                {
+                    "ref": "axis",
+                    "value": "horizontal"
+                }
+            ],
+            "qualifiers": [
+                {
+                    "ref": "open",
+                    "value": false
+                }
+            ]
+        }
+    ]
+}

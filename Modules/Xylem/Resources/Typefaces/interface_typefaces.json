@@ -1,0 +1,20 @@
+{
+    "type": "typeface",
+    "entries": [
+        {
+            "idn": "rowui",
+            "res": "Row-UI",
+            "base_scale": 2.0,
+            "height": 10,
+            "space": 1,
+            "layout": [
+                "QWERTYUIOP[]{}|\\ -",
+                "ASDFGHJKL;:'\"ZXCVBNM,<.>/?",
+                "qwertyuiop",
+                "asdfghjkl",
+                "zxcvbnm",
+                "0123456789"
+            ]
+        }
+    ]
+}

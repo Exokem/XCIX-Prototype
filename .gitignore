@@ -1,0 +1,9 @@
+.vs
+bin
+obj
+/Content/bin/**
+/Content/obj/**
+*.psd
+*.xcf
+.vscode/starry-night-theme.jsonc
+.vscode/

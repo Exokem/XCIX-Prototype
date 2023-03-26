@@ -1,0 +1,28 @@
+{
+    "type": "options_package",
+    "idn": "framework_colors",
+    "entries": {
+        "primary_border": [0, 0, 52],
+        "primary_text": [0, 0, 52],
+
+        "primary_accent": [31, 42, 34],
+        "secondary_accent": [32, 100, 74],
+
+        "primary": [0, 0, 25],
+        "secondary": [0, 0, 18],
+        "tertiary": [0, 0, 14],
+        "quaternary": [0, 0, 10]
+    }
+    // "entries": {
+    //     "primary_border": [0, 0, 0],
+    //     "primary_text": [0, 0, 0],
+
+    //     "primary_accent": [195, 25, 90],
+    //     "secondary_accent": [240, 100, 50],
+
+    //     "primary": [0, 0, 96],
+    //     "secondary": [0, 0, 86],
+    //     "tertiary": [0, 0, 66],
+    //     "quaternary": [0, 0, 41]
+    // }
+}

@@ -1,0 +1,7 @@
+{
+    "type": "texture",
+    "entries": [
+        { "idn": "Row-UI", "res": "Row-UI.png" },
+        { "idn": "Xylem-Title", "res": "xylem_logo.png" }
+    ]
+}

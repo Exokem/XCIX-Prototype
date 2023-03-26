@@ -1,0 +1,10 @@
+{
+    "type": "options_package",
+    "idn": "vitreous_editor_shortcuts",
+    "entries": {
+        "structure_placement_tool": "S",
+        "floor_placement_tool": "F",
+        "element_add_tool": "E",
+        "tile_inspect_tool": "I"
+    }
+}

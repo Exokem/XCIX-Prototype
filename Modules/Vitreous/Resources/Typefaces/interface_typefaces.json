@@ -1,0 +1,38 @@
+{
+    "type": "typeface",
+    "entries": [
+        {
+            "idn": "celuni",
+            "res": "Cel-Uni",
+            "base_scale": 0.25,
+            "height": 32,
+            "space": 1,
+            "layout": [
+                "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz",
+                "0123456789.?!"
+            ]
+        },
+        {
+            "idn": "senui",
+            "res": "Sen-UI",
+            "base_scale": 2.0,
+            "height": 16,
+            "space": 1,
+            "layout": [
+                "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz",
+                "0123456789 .?!,;:'\"[]()<>\\/|+-=_`#%^*~"
+            ]
+        },
+        {
+            "idn": "sushimono",
+            "res": "Sushi-Mono",
+            "height": 7,
+            "space": 1,
+            "layout": [
+                "abcdefghijklmnopqrstuvwxyz",
+                "0123456789.?!,;:'\"[]()<>\\/",
+                "|+-=_`#%^*~ "
+            ]
+        }
+    ]
+}

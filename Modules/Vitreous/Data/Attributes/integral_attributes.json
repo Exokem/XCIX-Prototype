@@ -1,0 +1,37 @@
+{
+    "type": "attribute",
+    "entries": [
+        {
+            "idn": "vitality",
+            "dsc": "Life-force inclination; the basis for composite durability." 
+        },
+        {
+            "idn": "dexterity",
+            "dsc": "Physical skill; relating to intricate manipulation." 
+        },
+        {
+            "idn": "fortitude",
+            "dsc": "Intellectual resilience; abstract strength and courage." 
+        },
+        {
+            "idn": "resistance",
+            "dsc": "Physical resilience; concrete strength and power."
+        },
+        {
+            "idn": "acuity",
+            "dsc": "Observational skill; awareness and spatial recognition."
+        },
+        {
+            "idn": "intelligence",
+            "dsc": "Intellectual skill; comprehension and insight."
+        },
+        {
+            "idn": "charm",
+            "dsc": "Social skill; conversation and persuasion."
+        },
+        {
+            "idn": "integrity",
+            "dsc": "Structural integrity"
+        }
+    ]
+}

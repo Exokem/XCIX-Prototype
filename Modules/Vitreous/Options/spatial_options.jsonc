@@ -1,0 +1,19 @@
+{
+    "type": "options_package",
+    "idn": "vitreous_spatial_options",
+    "entries": {
+        // Area options
+
+        "grid_width": 96,
+        "grid_height": 64,
+        "tile_width": 24,
+        "tile_height": 24,
+
+        // Sector options
+
+        "sector_grid_width": 48,
+        "sector_grid_height": 32,
+        "sector_area_width": 48,
+        "sector_area_height": 48
+    }
+}

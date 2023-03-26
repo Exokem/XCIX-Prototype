@@ -1,0 +1,10 @@
+{
+    "type": "effect",
+    "entries": [
+        {
+            "idn": "effect_debug",
+            "class": "Xylem.Interaction.DebugEffect",
+            "value": "something special"
+        }
+    ]
+}

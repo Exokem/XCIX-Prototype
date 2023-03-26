@@ -1,0 +1,12 @@
+{
+    "type": "structure",
+    "entries": [
+        { 
+            "idn": "empty", 
+            "element": "empty",
+            "container": {
+                "type": "Vitreous.Component.Composite.HeapContainer"
+            }
+        }
+    ]
+}

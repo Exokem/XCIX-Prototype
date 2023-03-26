@@ -1,0 +1,14 @@
+{
+    "type": "state",
+    "entries": [
+        {
+            "idn": "axis",
+            "dsc": "The coordinate alignment of an object.",
+            "values": [
+                { "idn": "horizontal" },
+                { "idn": "vertical" }
+            ],
+            "base": "horizontal"
+        }
+    ]
+}

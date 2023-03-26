@@ -1,0 +1,27 @@
+{
+    "type": "texture",
+    "entries": [
+        { "idn": "Vitreous-Title", "res": "vitreous_logo.png" },
+
+        { "idn": "Cel-Uni", "res": "Cel-Uni.png" },
+        { "idn": "Sen-UI", "res": "Sen-UI.png" },
+        { "idn": "Sushi-Mono", "res": "Sushi-Mono.png" },
+
+        { "idn": "Icon-Areas", "res": "icon_areas.png" },
+        { "idn": "Icon-Structures", "res": "icon_structures.png" },
+        { "idn": "Icon-Floors", "res": "icon_floors.png" },
+        { "idn": "Icon-Elements", "res": "icon_elements.png" },
+        { "idn": "Icon-Inspector", "res": "icon_inspector.png" },
+
+        { "idn": "Sushi-Mono", "res": "Sushi-Mono.png" },
+        { "idn": "wall", "res": "wall.png" },
+        { "idn": "wall_connections", "res": "wall_connections.png" },
+
+        { "idn": "Industrial-Panel", "res": "industrial_panel.png" },
+        { "idn": "Industrial-Panel-Connections", "res": "industrial_panel_connections.png" },
+
+        { "idn": "Industrial-Door", "res": "industrial_door.png" },
+        { "idn": "Industrial-Door-Partitions", "res": "industrial_door_partitions.png" },
+        { "idn": "Wall-Industrial-Door-Overlays", "res": "wall_industrial_door_overlays.png" }
+    ]
+}

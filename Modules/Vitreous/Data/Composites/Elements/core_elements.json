@@ -1,0 +1,40 @@
+﻿{
+    "type": "element",
+    "entries": [
+        {
+            "idn": "empty",
+            "dsc": "The empty element."
+        },
+        {
+            "idn": "test_parent",
+            "attributes": [
+                {
+                    "ref": "vitality",
+                    "min": 0,
+                    "max": 100
+                },
+                {
+                    "ref": "integrity",
+                    "min": 0,
+                    "max": 100
+                }
+            ]
+        },
+        {
+            "idn": "test_inheritor",
+            "inherits": ["test_parent"],
+            "attributes": [
+                {
+                    "ref": "integrity",
+                    "min": 0,
+                    "max": 69
+                },
+                {
+                    "ref": "fortitude",
+                    "min": 6,
+                    "max": 20
+                }
+            ]
+        }
+    ]
+}
