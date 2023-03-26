@@ -46,22 +46,22 @@ Swing toolkit.
 
 Some components include: 
 
-- [Frame](https://github.com/Exokem/XCIX/blob/development-1/src/Xylem/Framework/Frame.cs) (the default component)
-- [Label](https://github.com/Exokem/XCIX/blob/development-1/src/Xylem/Framework/Control/Controls.cs) (displays some text)
+- [Frame](https://github.com/Exokem/XCIX-Prototype/blob/main/src/Xylem/Framework/Frame.cs) (the default component)
+- [Label](https://github.com/Exokem/XCIX-Prototype/blob/main/src/Xylem/Framework/Control/Controls.cs) (displays some text)
 - [TextInput](https://github.com/Exokem/XCIX/blob/dc81728f742410f106c2ac0e0db291a776e3bd92/src/Xylem/Framework/Control/Controls.cs#L90) (a label that can be edited, with a movable cursor)
-- [GridFrame](https://github.com/Exokem/XCIX/blob/development-1/src/Xylem/Framework/Layout/GridFrame.cs) (arranges contents within a CxR grid, similarly to the [WPF Grid](https://learn.microsoft.com/en-us/dotnet/api/system.windows.controls.grid?view=windowsdesktop-7.0))
-    - [PartitionGridFrame](https://github.com/Exokem/XCIX/blob/development-1/src/Xylem/Framework/Layout/PartitionGridFrame.cs) (the same as a GridFrame, but rows and columns are assigned a specific portion of the whole width or height of the grid)
-    - [SelectionGridFrame](https://github.com/Exokem/XCIX/blob/development-1/src/Xylem/Framework/Layout/SelectionGridFrame.cs) (a GridFrame where only one item in the grid can be selected at once)
-- [ListFrame](https://github.com/Exokem/XCIX/blob/development-1/src/Xylem/Framework/Layout/ListFrame.cs) (vertical scrollable list of frames)
-    - [DynamicListFrame](https://github.com/Exokem/XCIX/blob/development-1/src/Xylem/Framework/Layout/DynamicListFrame.cs) (a ListFrame with some extra dynamic sizing functionality)
-- [SplitFrame](https://github.com/Exokem/XCIX/blob/development-1/src/Xylem/Framework/Layout/SplitFrame.cs) (a horizontal or vertical list of frames with a consistent spacing between them)
-- [TabFrame](https://github.com/Exokem/XCIX/blob/development-1/src/Xylem/Framework/Layout/TabFrame.cs) (a frame with tabs at the top that change its content - like web browser tabs)
-- [Button](https://github.com/Exokem/XCIX/blob/development-1/src/Xylem/Framework/Control/Buttons.cs)
+- [GridFrame](https://github.com/Exokem/XCIX-Prototype/blob/main/src/Xylem/Framework/Layout/GridFrame.cs) (arranges contents within a CxR grid, similarly to the [WPF Grid](https://learn.microsoft.com/en-us/dotnet/api/system.windows.controls.grid?view=windowsdesktop-7.0))
+    - [PartitionGridFrame](https://github.com/Exokem/XCIX-Prototype/blob/main/src/Xylem/Framework/Layout/PartitionGridFrame.cs) (the same as a GridFrame, but rows and columns are assigned a specific portion of the whole width or height of the grid)
+    - [SelectionGridFrame](https://github.com/Exokem/XCIX-Prototype/blob/main/src/Xylem/Framework/Layout/SelectionGridFrame.cs) (a GridFrame where only one item in the grid can be selected at once)
+- [ListFrame](https://github.com/Exokem/XCIX-Prototype/blob/main/src/Xylem/Framework/Layout/ListFrame.cs) (vertical scrollable list of frames)
+    - [DynamicListFrame](https://github.com/Exokem/XCIX-Prototype/blob/main/src/Xylem/Framework/Layout/DynamicListFrame.cs) (a ListFrame with some extra dynamic sizing functionality)
+- [SplitFrame](https://github.com/Exokem/XCIX-Prototype/blob/main/src/Xylem/Framework/Layout/SplitFrame.cs) (a horizontal or vertical list of frames with a consistent spacing between them)
+- [TabFrame](https://github.com/Exokem/XCIX-Prototype/blob/main/src/Xylem/Framework/Layout/TabFrame.cs) (a frame with tabs at the top that change its content - like web browser tabs)
+- [Button](https://github.com/Exokem/XCIX-Prototype/blob/main/src/Xylem/Framework/Control/Buttons.cs)
     - [SwitchButton](https://github.com/Exokem/XCIX/blob/dc81728f742410f106c2ac0e0db291a776e3bd92/src/Xylem/Framework/Control/Buttons.cs#L85) (a check button)
-    - [AnimatedButton](https://github.com/Exokem/XCIX/blob/development-1/src/Xylem/Framework/Control/AnimatedButton.cs)
-    - [Menu](https://github.com/Exokem/XCIX/blob/development-1/src/Xylem/Framework/Control/Menus.cs) (a dropdown menu, like the 'File' or 'Edit' menus at the top of many applications)
-- [ContextMenu](https://github.com/Exokem/XCIX/blob/development-1/src/Xylem/Framework/Control/ContextMenu.cs) (a dropdown menu that can be displayed in a specific place)
-- [DialogFrame](https://github.com/Exokem/XCIX/blob/development-1/src/Xylem/Framework/Control/DialogFrame.cs) (a popup dialog)
+    - [AnimatedButton](https://github.com/Exokem/XCIX-Prototype/blob/main/src/Xylem/Framework/Control/AnimatedButton.cs)
+    - [Menu](https://github.com/Exokem/XCIX-Prototype/blob/main/src/Xylem/Framework/Control/Menus.cs) (a dropdown menu, like the 'File' or 'Edit' menus at the top of many applications)
+- [ContextMenu](https://github.com/Exokem/XCIX-Prototype/blob/main/src/Xylem/Framework/Control/ContextMenu.cs) (a dropdown menu that can be displayed in a specific place)
+- [DialogFrame](https://github.com/Exokem/XCIX-Prototype/blob/main/src/Xylem/Framework/Control/DialogFrame.cs) (a popup dialog)
 
 <br/>
 
@@ -217,7 +217,7 @@ to the JSON data format.
 }
 ```
 
-The above JSON data, for example, would be translated into an instance of the [Typeface](https://github.com/Exokem/XCIX/blob/development-1/src/Xylem/Component/Typeface.cs)
+The above JSON data, for example, would be translated into an instance of the [Typeface](https://github.com/Exokem/XCIX-Prototype/blob/main/src/Xylem/Component/Typeface.cs)
 class: 
 
 ```cs
@@ -254,7 +254,7 @@ against unique identifiers.
 [RegistryEntries](https://github.com/Exokem/XCIX/blob/9cc5e33e043aeed980ba9bd064670cf1846ab53b/src/Xylem/Registration/Registry.cs#L14) are JsonComposites that can only be registered once per identifier.
 They are conventionally immutable, though some of the code may not reflect this.
 
-[Instances](https://github.com/Exokem/XCIX/blob/development-1/src/Xylem/Component/Instance.cs) are JsonComposites that contain a reference to some RegistryEntry as well 
+[Instances](https://github.com/Exokem/XCIX-Prototype/blob/main/src/Xylem/Component/Instance.cs) are JsonComposites that contain a reference to some RegistryEntry as well 
 as mutable states related to that entry.
 
 Modules (no code representation) are collections of data files that are intended to
@@ -279,14 +279,14 @@ until I started working on the second iteration.
 #### The Pipeline - Indexing
 
 The content pipeline begins with indexing. The [Modules](https://github.com/Exokem/XCIX/tree/development-1/Modules) directory is the root data 
-directory - the [Importer](https://github.com/Exokem/XCIX/blob/development-1/src/Xylem/Data/Importer.cs) begins indexing by reading the module import ordering
-from the [module_priorities](https://github.com/Exokem/XCIX/blob/development-1/Modules/module_priorities.jsonc) file within this directory.
+directory - the [Importer](https://github.com/Exokem/XCIX-Prototype/blob/main/src/Xylem/Data/Importer.cs) begins indexing by reading the module import ordering
+from the [module_priorities](https://github.com/Exokem/XCIX-Prototype/blob/main/Modules/module_priorities.jsonc) file within this directory.
 
-Next, the Importer scans each subdirectory of the Modules directory for a [module_info](https://github.com/Exokem/XCIX/blob/development-1/Modules/Xylem/module_info.jsonc)
+Next, the Importer scans each subdirectory of the Modules directory for a [module_info](https://github.com/Exokem/XCIX-Prototype/blob/main/Modules/Xylem/module_info.jsonc)
 file, whose existence indicates that the containing directory is a module.
 
 Once all of the module directories have been checked, the Importer verifies that all
-required modules are present. If any modules listed in the [module_priorities](https://github.com/Exokem/XCIX/blob/development-1/Modules/module_priorities.jsonc) file 
+required modules are present. If any modules listed in the [module_priorities](https://github.com/Exokem/XCIX-Prototype/blob/main/Modules/module_priorities.jsonc) file 
 or as dependencies of a scanned module, an error will be produced.
 
 <br/>
@@ -297,7 +297,7 @@ After indexing, registries need to be initialized so that the importer has a pla
 store all of the data it imports from present modules. The [ModuleRegistryInitializer](https://github.com/Exokem/XCIX/blob/9cc5e33e043aeed980ba9bd064670cf1846ab53b/src/Xylem/Reflection/ModuleAttributes.cs#L19)
 attribute is used to locate 'registry initializer' types, whose static constructors are
 subsequently forcibly invoked under the presumption that they will initialize any 
-necessary registries. See [Xylem.Registration.R](https://github.com/Exokem/XCIX/blob/development-1/src/Xylem/Registration/Registries.cs) for an example.
+necessary registries. See [Xylem.Registration.R](https://github.com/Exokem/XCIX-Prototype/blob/main/src/Xylem/Registration/Registries.cs) for an example.
 
 <br/>
 
@@ -319,7 +319,7 @@ structure only matters up to that point. Even so, the importer does require data
 to follow a specific format.
 
 Each data file in a registry directory must specify the key of the registry its content
-is intended for, as well as a set of entries to be loaded. See [framework_colors.jsonc](https://github.com/Exokem/XCIX/blob/development-1/Modules/Xylem/Options/framework_colors.jsonc)
+is intended for, as well as a set of entries to be loaded. See [framework_colors.jsonc](https://github.com/Exokem/XCIX-Prototype/blob/main/Modules/Xylem/Options/framework_colors.jsonc)
 for an example data file.
 
 When a data file is parsed (using the [Json.NET library](https://www.newtonsoft.com/json)), the raw JObject data for each entry is passed directly to the constructor
@@ -356,7 +356,7 @@ At one point I wanted to add a margin property to my frames, similar to the inse
 they already had. The initial design was so rigid that I quickly gave up on this idea;
 all of the existing rendering logic was based on there only being insets to account for.
 
-More to the point, the base [Frame](https://github.com/Exokem/XCIX/blob/development-1/src/Xylem/Framework/Frame.cs) class has become so bloated that it's extremely
+More to the point, the base [Frame](https://github.com/Exokem/XCIX-Prototype/blob/main/src/Xylem/Framework/Frame.cs) class has become so bloated that it's extremely
 difficult to add anything new without breaking something, or everything, else.
 
 <br/>
@@ -374,7 +374,7 @@ is to switch to an entirely different format (like XML) or even just a more effi
 JSON library.
 
 Another point against the pipeline is its reliance on manual conversion of data into
-the relevant properties. If you look at the [Typeface](https://github.com/Exokem/XCIX/blob/development-1/src/Xylem/Component/Typeface.cs) 
+the relevant properties. If you look at the [Typeface](https://github.com/Exokem/XCIX-Prototype/blob/main/src/Xylem/Component/Typeface.cs) 
 class, for example, there is a huge amount of logic in the constructor that is just
 devoted to reading from a JObject. Even if the logic is unavoidable, it probably belongs
 elsewhere. Plus, it would be neater if all of the required properties could just be 
@@ -431,6 +431,6 @@ Goals
 * Raster and vector based rendering
 * Support for rendering custom bitmap fonts and standard formats (otf, ttf, etc.)
 * Support for rendering a variety of image formats
-* Potentially, a domain specific language to simplify UI creation (something like WPF's XAML, but neater and easier to read)
+* Potentially, a domain specific language to simplify UI creation (something like [WPF's XAML](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/xaml/?view=netdesktop-7.0), but neater and easier to read)
 
 
